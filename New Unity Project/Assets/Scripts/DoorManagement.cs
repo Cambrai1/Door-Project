@@ -18,16 +18,15 @@ public class DoorManagement : MonoBehaviour {
     void Update () {
 	    if (Input.GetKeyDown(KeyCode.Space))
         {
-            animation.play("DoorOpen");
 
             if (isOpen)
             {
-                //AnimateDoor.SetTrigger("AnimateDoor");
+                AnimateDoor.SetTrigger("AnimateDoor");
 
             }
             else
             {
-                //AnimateDoor.SetTrigger("AnimateDoor");
+                AnimateDoor.SetTrigger("AnimateDoor");
             }
 
             isOpen = !isOpen;
