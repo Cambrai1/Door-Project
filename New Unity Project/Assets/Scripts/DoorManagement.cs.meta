@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: 0a7d274ea4bd4914d967867146b0ccc0
-timeCreated: 1507281963
-licenseType: Pro
+timeCreated: 1510486568
+licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - AnimateDoor: {fileID: 9500000, guid: a75ad007b0d00c64686ccf78977d6f2b, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

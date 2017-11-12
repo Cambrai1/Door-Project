@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Door.cs">
     <Files>
-      <File FileName="Assets\Door.cs" Line="27" Column="48" />
+      <File FileName="Assets\Door.cs" Line="23" Column="1" />
       <File FileName="Assets\Scripts\DoorManagement.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

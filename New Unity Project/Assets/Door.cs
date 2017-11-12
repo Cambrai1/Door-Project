@@ -24,7 +24,7 @@ public class Door : MonoBehaviour {
 			}
 			else
 			{
-				door1.SetTrigger("Door Piece Right Prism");
+				door1.SetTrigger("Open Doors");
 			}
 
 			isOpen = !isOpen;

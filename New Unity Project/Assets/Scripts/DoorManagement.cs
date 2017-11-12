@@ -10,26 +10,24 @@ public class DoorManagement : MonoBehaviour {
     }
 
     [SerializeField]
-    private Animator door1;
+    private Animator AnimateDoor;
 
-    [SerializeField]
-    private Animator door2;
-
-    private bool isOpen = false;
+    private bool isOpen = true;
 
     // Update is called once per frame
     void Update () {
 	    if (Input.GetKeyDown(KeyCode.Space))
         {
+            animation.play("DoorOpen");
+
             if (isOpen)
             {
-                door1.SetTrigger("Close Doors");
-                door2.SetTrigger("Close Doors");
+                //AnimateDoor.SetTrigger("AnimateDoor");
+
             }
             else
             {
-                door1.SetTrigger("Open Doors");
-                door2.SetTrigger("Open Doors");
+                //AnimateDoor.SetTrigger("AnimateDoor");
             }
 
             isOpen = !isOpen;
