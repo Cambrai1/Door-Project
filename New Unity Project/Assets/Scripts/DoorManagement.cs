@@ -12,7 +12,7 @@ public class DoorManagement : MonoBehaviour {
     [SerializeField]
     private Animator AnimateDoor;
 
-    private bool isOpen = true;
+    private bool isOpen = false;
 
     // Update is called once per frame
     void Update () {
@@ -21,12 +21,12 @@ public class DoorManagement : MonoBehaviour {
 
             if (isOpen)
             {
-                AnimateDoor.SetTrigger("AnimateDoor");
+                AnimateDoor.SetTrigger("Close");
 
             }
             else
             {
-                AnimateDoor.SetTrigger("AnimateDoor");
+                AnimateDoor.SetTrigger("Open");
             }
 
             isOpen = !isOpen;

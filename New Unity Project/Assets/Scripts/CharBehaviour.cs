@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace ISS
 {
-    public class CharBehaviour : MonoBehaviour
+    public class CharBehaviour2 : MonoBehaviour
     {
         [SerializeField]
         private float m_speed = 10.0f;
