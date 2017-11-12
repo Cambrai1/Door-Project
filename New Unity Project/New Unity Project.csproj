@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Door.cs" />
+    <Compile Include="Assets\Scripts\CamController.cs" />
     <Compile Include="Assets\Scripts\CharBehaviour.cs" />
     <Compile Include="Assets\Scripts\CharBehaviour1.cs" />
     <Compile Include="Assets\Scripts\DoorManagement.cs" />
