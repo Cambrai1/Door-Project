@@ -12,6 +12,8 @@ public class DoorManagement : MonoBehaviour {
     [SerializeField]
     private Animator AnimateDoor;
 
+    [SerializeField]
+    private AudioSource WooshSound;
     private bool isOpen = false;
 
     // Update is called once per frame
@@ -27,6 +29,7 @@ public class DoorManagement : MonoBehaviour {
             else
             {
                 AnimateDoor.SetTrigger("Open");
+                WooshSound.Play();
             }
 
             isOpen = !isOpen;
