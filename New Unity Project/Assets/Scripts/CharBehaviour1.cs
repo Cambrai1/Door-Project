@@ -35,10 +35,6 @@ namespace ISS
         // Update is called once per frame
         void Update()
         {
-            if (GameObject.Find("Character").GetComponent<CharBehaviour1>().heightY < 0)
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
             heightY = transform.position.y;
 
             //image.enabled = !(slider.value == 10);
